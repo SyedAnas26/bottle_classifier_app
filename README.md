@@ -27,6 +27,7 @@
 * Activate the environment - ```classifier_env\Scripts\activate```
 * Install the dependencies of the project - ```pip install -r requirements.txt```
 
-Now you can run the python script - ``` python Main.py ```
+### Running the Script :
+* Now you can run the python script - ``` python Main.py ```
 
 **"Slide Deck"** and **"screenshot images"** of the GUI Application are available in the project folder.
