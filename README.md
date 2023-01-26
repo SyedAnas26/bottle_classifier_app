@@ -29,4 +29,4 @@
 
 Now you can run the python script - ``` python Main.py ```
 
-**"Slide Deck"** and **"screenshot images"** of the GUI Application is available in the project folder.
+**"Slide Deck"** and **"screenshot images"** of the GUI Application are available in the project folder.
