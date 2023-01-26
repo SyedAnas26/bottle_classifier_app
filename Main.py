@@ -2,6 +2,7 @@ import os
 import sys
 
 from PySide2.QtCore import QDir
+from PySide2.QtGui import QIcon
 from PySide2.QtWidgets import QApplication, QTabWidget
 
 from components.Analytics import Analytics
@@ -25,6 +26,7 @@ if __name__ == "__main__":
     tabs.addTab(Analytics(my_collection), "Analytics")
     tabs.addTab(ImageGallery(my_collection), "Image Gallery")
     tabs.setWindowTitle("Bottle Classifier")
+    tabs.setWindowIcon(QIcon('images:logo.png'))
     tabs.setStyleSheet(
         "QTabWidget::pane { border: 2px solid lightgray;  top:-1px;   background: rgb(245, 245, 245); }"
         "QTabBar::tab { background: rgb(230, 230, 230); border: 2px solid lightgray; padding: 12px; width:120px }"
