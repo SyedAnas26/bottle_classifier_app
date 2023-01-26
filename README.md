@@ -17,7 +17,7 @@
 
 * Make sure the database service is running at port **"mongodb://localhost:27017"**
 * Create a database named **"bottle_classifier_db"** - ``` use bottle_classifier_db;```
-* Create a collection to store bottle data **"bottles"** - ``` db.createCollection("bottle");```
+* Create a collection to store bottle data **"bottles"** - ``` db.createCollection("bottles");```
 * Import bottle data from the csv provided in dataset directory <br/>
   ```mongoimport -d bottle_classifier_db -c bottles --type csv --file your_path_to_repo\dataset\bottle_database.csv --headerline```
 
@@ -29,4 +29,4 @@
 
 Now you can run the python script - ``` python Main.py ```
 
-Slide Deck and screenshot images of the GUI Application is available in the project folder.
+**"Slide Deck"** and **"screenshot images"** of the GUI Application is available in the project folder.
