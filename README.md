@@ -26,6 +26,13 @@
 * Create a python environment of version 3.10 - ```python -m venv classifier_env```
 * Activate the environment - ```classifier_env\Scripts\activate```
 * Install the dependencies of the project - ```pip install -r requirements.txt```
+* The Dependencies are as follows
+
+```
+pymongo
+PySide2
+matplotlib
+```
 
 ### Running the Script :
 * Now you can run the python script - ``` python Main.py ```
